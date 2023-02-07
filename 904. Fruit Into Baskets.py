@@ -1,6 +1,6 @@
 class Solution:
     def totalFruit(self, fruits: List[int]) -> int:
-
+        #done by 2-pointer
         fr = {fruits[0]:1}
         ans = 1
         i = 0
